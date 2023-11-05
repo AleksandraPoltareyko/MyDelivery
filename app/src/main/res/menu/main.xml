@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fastFood"
+        android:title="Menu"
+        android:icon="@drawable/ic_baseline_fastfood_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/basket"
+        android:title="Basket"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"
+        app:showAsAction="ifRoom"/>
+</menu>
